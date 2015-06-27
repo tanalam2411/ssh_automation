@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SSH Operatioons</title>
+</head>
+
+<body>
+	
+	<a href="">Back</a><br><br>
+	
+	{% if connection_error %}
+	<label><u>Connection Error:</u></label>
+	<p>{{ connection_error }}</p>
+	{% endif %}
+	
+	
+	{% if error %}
+	<label><u>Command Error:</u></label>
+	<p>{{ error }}</p>
+	{% endif %}
+	
+	
+	{% if output %}
+	<label><u>Command Execution's Result:</u></label>
+		{% for i in output %}
+			<p>{{ i }}</p>
+		{% endfor %}
+	{% endif %}
+	
+	
+
+</body>
+
+
+</html>
+
+

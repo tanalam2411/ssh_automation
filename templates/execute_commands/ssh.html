@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>SSH Platform</title>
+</head>
+</html>
+
+<body>
+	
+	<form action="/ssh-automation/" method="post">
+	{% csrf_token %}
+	<h3> SSH Automation </h3>
+	{{ form }}
+	<br>
+	<input type="submit" value="submit" />
+	</form>
+	
+	<p>{{ connection_error }}</p>
+	<p>{{ error }}</p>
+	<p>{{ output }}</p>
+	
+	{% if connection_error %}<p>{{ connection_error }}</p>{% endif %}
+	{% if error %}<p>{{ error }}</p>{% endif %}
+	{% if output %}<p>{{ output }}</p>{% endif %}
+	
+</body>
+</html>

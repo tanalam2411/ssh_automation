@@ -1,0 +1,176 @@
+DEB [20150623-15:18:01.979] thr=1   paramiko.transport: starting thread (client mode): 0x3768150L
+INF [20150623-15:18:02.003] thr=1   paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:18:02.005] thr=1   paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:18:02.005] thr=1   paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:18:02.005] thr=1   paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:18:02.240] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20150623-15:18:02.243] thr=2   paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:18:02.255] thr=1   paramiko.transport: userauth is OK
+INF [20150623-15:18:02.293] thr=1   paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:18:02.336] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:18:02.338] thr=1   paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:18:02.339] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:18:02.357] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:18:02.566] thr=1   paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:18:02.569] thr=1   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:18:02.670] thr=1   paramiko.transport: EOF in transport thread
+DEB [20150623-15:18:43.559] thr=3   paramiko.transport: starting thread (client mode): 0x37e6930L
+INF [20150623-15:18:43.559] thr=3   paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:18:43.559] thr=3   paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:18:43.559] thr=3   paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:18:43.559] thr=3   paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:18:43.798] thr=3   paramiko.transport: Switch to new keys ...
+DEB [20150623-15:18:43.801] thr=4   paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:18:43.802] thr=3   paramiko.transport: userauth is OK
+INF [20150623-15:18:43.829] thr=3   paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:18:43.835] thr=4   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:18:43.836] thr=3   paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:18:43.836] thr=3   paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:18:43.845] thr=3   paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:18:43.887] thr=3   paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:18:43.887] thr=3   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:18:43.987] thr=3   paramiko.transport: EOF in transport thread
+DEB [20150623-15:19:09.203] thr=5   paramiko.transport: starting thread (client mode): 0x37ef030L
+INF [20150623-15:19:09.203] thr=5   paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:19:09.204] thr=5   paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:19:09.206] thr=5   paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:19:09.206] thr=5   paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:19:09.450] thr=5   paramiko.transport: Switch to new keys ...
+DEB [20150623-15:19:09.453] thr=6   paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:19:09.456] thr=5   paramiko.transport: userauth is OK
+INF [20150623-15:19:09.490] thr=5   paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:19:09.493] thr=6   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:19:09.493] thr=5   paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:19:09.493] thr=5   paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:19:09.505] thr=5   paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:19:09.542] thr=5   paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:19:09.546] thr=5   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:19:09.647] thr=5   paramiko.transport: EOF in transport thread
+DEB [20150623-15:19:28.947] thr=7   paramiko.transport: starting thread (client mode): 0x3768690L
+INF [20150623-15:19:28.948] thr=7   paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:19:28.950] thr=7   paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:19:28.950] thr=7   paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:19:28.950] thr=7   paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:19:29.187] thr=7   paramiko.transport: Switch to new keys ...
+DEB [20150623-15:19:29.190] thr=8   paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:19:29.190] thr=7   paramiko.transport: userauth is OK
+INF [20150623-15:19:29.219] thr=7   paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:19:29.221] thr=8   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:19:29.223] thr=7   paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:19:29.223] thr=7   paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:19:29.230] thr=7   paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:19:29.266] thr=7   paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:19:29.266] thr=7   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:19:29.367] thr=7   paramiko.transport: EOF in transport thread
+DEB [20150623-15:19:46.828] thr=9   paramiko.transport: starting thread (client mode): 0x37ef3b0L
+INF [20150623-15:19:46.828] thr=9   paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:19:46.831] thr=9   paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:19:46.831] thr=9   paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:19:46.831] thr=9   paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:19:47.063] thr=9   paramiko.transport: Switch to new keys ...
+DEB [20150623-15:19:47.069] thr=10  paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:19:47.071] thr=9   paramiko.transport: userauth is OK
+INF [20150623-15:19:47.107] thr=9   paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:19:47.138] thr=10  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:19:47.140] thr=9   paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:19:47.140] thr=9   paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:19:47.148] thr=9   paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:19:47.184] thr=9   paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:19:47.186] thr=9   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:19:47.286] thr=9   paramiko.transport: EOF in transport thread
+DEB [20150623-15:21:00.295] thr=11  paramiko.transport: starting thread (client mode): 0x37f4430L
+INF [20150623-15:21:00.296] thr=11  paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:21:00.296] thr=11  paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:21:00.296] thr=11  paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:21:00.296] thr=11  paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:21:00.530] thr=11  paramiko.transport: Switch to new keys ...
+DEB [20150623-15:21:00.532] thr=12  paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:21:00.536] thr=11  paramiko.transport: userauth is OK
+INF [20150623-15:21:00.568] thr=11  paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:21:00.598] thr=12  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:21:00.598] thr=11  paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:21:00.598] thr=11  paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:21:00.605] thr=11  paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:21:00.648] thr=11  paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:21:00.650] thr=11  paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:21:00.755] thr=11  paramiko.transport: EOF in transport thread
+DEB [20150623-15:21:09.630] thr=13  paramiko.transport: starting thread (client mode): 0x37e6eb0L
+INF [20150623-15:21:09.631] thr=13  paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-15:21:09.631] thr=13  paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-15:21:09.631] thr=13  paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-15:21:09.631] thr=13  paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-15:21:09.868] thr=13  paramiko.transport: Switch to new keys ...
+DEB [20150623-15:21:09.871] thr=11  paramiko.transport: Adding ssh-dss host key for 127.0.0.1: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-15:21:09.872] thr=13  paramiko.transport: userauth is OK
+INF [20150623-15:21:09.900] thr=13  paramiko.transport: Authentication (password) successful!
+DEB [20150623-15:21:09.904] thr=11  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-15:21:09.904] thr=13  paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-15:21:09.904] thr=13  paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-15:21:09.911] thr=13  paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-15:21:09.944] thr=13  paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-15:21:09.947] thr=13  paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-15:21:10.046] thr=13  paramiko.transport: EOF in transport thread
+DEB [20150623-19:49:07.582] thr=14  paramiko.transport: starting thread (client mode): 0x37ef9d0L
+INF [20150623-19:49:07.584] thr=14  paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-19:49:07.584] thr=14  paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-19:49:07.584] thr=14  paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-19:49:07.585] thr=14  paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-19:49:07.822] thr=14  paramiko.transport: Switch to new keys ...
+DEB [20150623-19:49:07.825] thr=15  paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-19:49:07.826] thr=14  paramiko.transport: userauth is OK
+INF [20150623-19:49:07.861] thr=14  paramiko.transport: Authentication (password) successful!
+DEB [20150623-19:49:07.888] thr=15  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-19:49:07.890] thr=14  paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-19:49:07.890] thr=14  paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-19:49:07.897] thr=14  paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-19:49:07.944] thr=14  paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-19:49:07.944] thr=14  paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-19:49:08.043] thr=14  paramiko.transport: EOF in transport thread
+DEB [20150623-19:49:15.619] thr=16  paramiko.transport: starting thread (client mode): 0x37fa710L
+INF [20150623-19:49:15.619] thr=16  paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-19:49:15.621] thr=16  paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-19:49:15.621] thr=16  paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-19:49:15.621] thr=16  paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-19:49:15.861] thr=16  paramiko.transport: Switch to new keys ...
+DEB [20150623-19:49:15.862] thr=17  paramiko.transport: Adding ssh-dss host key for 127.0.0.1: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-19:49:15.865] thr=16  paramiko.transport: userauth is OK
+INF [20150623-19:49:15.900] thr=16  paramiko.transport: Authentication (password) successful!
+DEB [20150623-19:49:15.927] thr=17  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-19:49:15.928] thr=16  paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-19:49:15.928] thr=16  paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-19:49:15.937] thr=16  paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-19:49:15.971] thr=16  paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-19:49:15.973] thr=16  paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-19:49:16.075] thr=16  paramiko.transport: EOF in transport thread
+DEB [20150623-19:49:23.243] thr=18  paramiko.transport: starting thread (client mode): 0x37fae50L
+INF [20150623-19:49:23.243] thr=18  paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-19:49:23.244] thr=18  paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-19:49:23.244] thr=18  paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-19:49:23.244] thr=18  paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-19:49:23.480] thr=18  paramiko.transport: Switch to new keys ...
+DEB [20150623-19:49:23.483] thr=19  paramiko.transport: Adding ssh-dss host key for 127.0.0.1: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-19:49:23.486] thr=18  paramiko.transport: userauth is OK
+INF [20150623-19:49:23.523] thr=18  paramiko.transport: Authentication (password) successful!
+DEB [20150623-19:49:23.549] thr=19  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-19:49:23.549] thr=18  paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-19:49:23.549] thr=18  paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-19:49:23.558] thr=18  paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-19:49:23.592] thr=18  paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-19:49:23.592] thr=18  paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-19:49:23.693] thr=18  paramiko.transport: EOF in transport thread
+DEB [20150623-19:49:40.638] thr=20  paramiko.transport: starting thread (client mode): 0x3768390L
+INF [20150623-19:49:40.638] thr=20  paramiko.transport: Connected (version 2.0, client 5.34)
+DEB [20150623-19:49:40.638] thr=20  paramiko.transport: kex algos:[u'ecdh-sha2-1.3.132.0.10', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1', u'gss-gex-sha1-toWM5Slw5Ew8Mqkay+al2g==', u'gss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g=='] server key:[u'ssh-dss'] client encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] server encrypt:[u'aes256-ctr', u'aes256-cbc', u'aes192-ctr', u'aes192-cbc', u'aes128-ctr', u'aes128-cbc', u'3des-ctr', u'3des-cbc'] client mac:[u'hmac-sha2-256', u'hmac-sha1'] server mac:[u'hmac-sha2-256', u'hmac-sha1'] client compress:[u'zlib', u'none'] server compress:[u'zlib', u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEB [20150623-19:49:40.638] thr=20  paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+DEB [20150623-19:49:40.638] thr=20  paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-dss; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20150623-19:49:40.878] thr=20  paramiko.transport: Switch to new keys ...
+DEB [20150623-19:49:40.880] thr=21  paramiko.transport: Adding ssh-dss host key for localhost: 531618c17884fa8dc283a1f136fc1e56
+DEB [20150623-19:49:40.881] thr=20  paramiko.transport: userauth is OK
+INF [20150623-19:49:40.915] thr=20  paramiko.transport: Authentication (password) successful!
+DEB [20150623-19:49:40.944] thr=21  paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20150623-19:49:40.944] thr=20  paramiko.transport: [chan 0] Max packet out: 65536 bytes
+DEB [20150623-19:49:40.944] thr=20  paramiko.transport: Secsh channel 0 opened.
+DEB [20150623-19:49:40.953] thr=20  paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20150623-19:49:40.996] thr=20  paramiko.transport: [chan 0] EOF received (0)
+DEB [20150623-19:49:41.000] thr=20  paramiko.transport: [chan 0] EOF sent (0)
+DEB [20150623-19:49:41.101] thr=20  paramiko.transport: EOF in transport thread

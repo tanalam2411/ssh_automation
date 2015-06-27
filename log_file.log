@@ -1,0 +1,127 @@
+2015-06-22 23:52:45,943 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-22 23:52:46,295 - tanveer - INFO - Ran command: ls.
+2015-06-22 23:53:20,204 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-22 23:53:20,256 - tanveer - INFO - Ran command: ls.
+2015-06-22 23:57:03,864 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-22 23:57:03,905 - tanveer - INFO - Ran command: ll.
+2015-06-22 23:57:03,905 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-22 23:57:12,125 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-22 23:57:12,176 - tanveer - INFO - Ran command: ll.
+2015-06-22 23:57:12,176 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 06:13:02,654 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 06:13:03,094 - tanveer - INFO - Ran command: ls.
+2015-06-23 06:13:16,681 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:13:16,726 - tanveer - INFO - Ran command: dir.
+2015-06-23 06:31:12,717 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 06:31:12,767 - tanveer - INFO - Ran command: dir.
+2015-06-23 06:31:36,390 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:31:36,433 - tanveer - INFO - Ran command: ll.
+2015-06-23 06:31:36,433 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 06:33:58,733 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:33:58,779 - tanveer - INFO - Ran command: echo %USERNAME%.
+2015-06-23 06:34:09,980 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:34:10,019 - tanveer - INFO - Ran command: ll.
+2015-06-23 06:34:10,020 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 06:35:35,190 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:35:35,234 - tanveer - INFO - Ran command: echo %USERNAME%.
+2015-06-23 06:35:39,266 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:35:39,328 - tanveer - INFO - Ran command: ls.
+2015-06-23 06:39:28,329 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 06:39:28,375 - tanveer - INFO - Ran command: echo %USERNAME%.
+2015-06-23 06:39:33,681 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 06:39:33,726 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:35:24,176 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:35:24,500 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:37:14,072 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:37:14,115 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:37:38,921 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:37:38,966 - tanveer - INFO - Ran command: ll.
+2015-06-23 07:37:38,966 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 07:37:47,857 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:37:47,905 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:38:38,437 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:38:38,482 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:39:35,924 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:39:35,967 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:41:57,322 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:41:57,365 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:42:07,609 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:42:07,651 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:42:22,384 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:42:22,423 - tanveer - INFO - Ran command: echo %USERNAME%.
+2015-06-23 07:43:41,184 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:43:41,223 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:44:11,029 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:44:11,081 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:44:32,648 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:44:32,696 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:48:14,651 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:48:14,701 - tanveer - INFO - Ran command: dir.
+2015-06-23 07:48:49,891 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:48:49,940 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:48:55,065 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:48:55,114 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:49:39,576 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:49:39,631 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:50:36,158 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:50:36,207 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:53:25,279 - tanveer - ERROR - Authentication failed.
+2015-06-23 07:54:06,094 - tanveer - ERROR - Authentication failed.
+2015-06-23 07:55:05,845 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:55:05,884 - tanveer - INFO - Ran command: ll.
+2015-06-23 07:55:05,885 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 07:55:13,447 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 07:55:13,486 - tanveer - INFO - Ran command: ll.
+2015-06-23 07:55:13,486 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 07:59:23,588 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:59:23,644 - tanveer - INFO - Ran command: ls.
+2015-06-23 07:59:43,308 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 07:59:43,354 - tanveer - INFO - Ran command: ls.
+2015-06-23 08:00:03,108 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 08:00:03,145 - tanveer - INFO - Ran command: echo %USERNAME%.
+2015-06-23 08:04:10,930 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 08:04:11,000 - tanveer - INFO - Ran command: ls.
+2015-06-23 08:15:47,582 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 08:15:47,894 - tanveer - INFO - Ran command: ll.
+2015-06-23 08:15:47,894 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 15:18:02,318 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 15:18:02,568 - tanveer - INFO - Ran command: ls.
+2015-06-23 15:18:43,834 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 15:18:43,888 - tanveer - INFO - Ran command: ls.
+2015-06-23 15:19:09,492 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 15:19:09,542 - tanveer - INFO - Ran command: ls.
+2015-06-23 15:19:29,221 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 15:19:29,266 - tanveer - INFO - Ran command: ls.
+2015-06-23 15:19:47,138 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 15:19:47,184 - tanveer - INFO - Ran command: ls.
+2015-06-23 15:21:00,598 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 15:21:00,654 - tanveer - INFO - Ran command: ls.
+2015-06-23 15:21:09,904 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 15:21:09,944 - tanveer - INFO - Ran command: dir.
+2015-06-23 19:49:07,888 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 19:49:07,944 - tanveer - INFO - Ran command: ls.
+2015-06-23 19:49:15,927 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 19:49:15,973 - tanveer - INFO - Ran command: echo %USERNAME%.
+2015-06-23 19:49:23,549 - tanveer - INFO - Successful ssh connection with host 127.0.0.1.
+2015-06-23 19:49:23,592 - tanveer - INFO - Ran command: ll.
+2015-06-23 19:49:23,592 - tanveer - ERROR - Ran command ll and got error as: 'll' is not recognized as an internal or external command,
+operable program or batch file.
+.
+2015-06-23 19:49:40,944 - tanveer - INFO - Successful ssh connection with host localhost.
+2015-06-23 19:49:40,997 - tanveer - INFO - Ran command: ls.
